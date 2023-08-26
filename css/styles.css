@@ -3,6 +3,12 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
+.top-line {
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo {
     color: var(--iris, #4D5AE5);
     font-family: "Raleway", sans-serif;
