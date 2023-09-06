@@ -33,7 +33,9 @@ img {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    margin-right: 76px
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .studio-top-line {
     color: var(--navyblue, #2E2F42);
@@ -282,9 +284,7 @@ img {
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.container-footer {
-    display: inline-block;
-}
+
 .studio-footer {
     color: var(--cloud, #F4F4FD);
 }
@@ -298,6 +298,3 @@ img {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-
-    display: inline-block;
-    margin-bottom: 16px;
