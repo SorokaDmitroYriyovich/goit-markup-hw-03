@@ -69,6 +69,7 @@ img {
 }
 .adress-list {
     display: flex;
+    gap: 40px;
     list-style-type: none;
     color: var(--slate, #434455);
     font-family: Roboto;
