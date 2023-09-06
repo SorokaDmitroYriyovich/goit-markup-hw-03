@@ -215,7 +215,7 @@ ul, ol {
 .our-team-list-block {
     padding: 32px 0;
     border: 1px solid #e7e9fc;
-    
+    border-top: none;
 }
 .our-team-list {
     list-style-type: none;
