@@ -116,8 +116,10 @@ img {
 }
 .features {
     background: #FFFFFF;
+    padding: 120px 0;
        }
 .features-title {
+    visibility: hidden;
     color: var(--navyblue, #2E2F42);
     text-align: center;
     font-family: Roboto;
@@ -127,6 +129,11 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+   }
+   .features-list-block {
+    display: flex; 
+    gap: 24px;
+    margin-right: 24px
    }
 .features-list {
     list-style-type: none;
@@ -138,6 +145,8 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    width calc((100% - 3 * 24px) / 4);
+    margin-bottom: 8px;
 }
 .features-text {
     background-color: #FFFFFF;
