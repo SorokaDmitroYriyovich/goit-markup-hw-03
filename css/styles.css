@@ -16,6 +16,11 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    margin: 0 auto;
+}
+.top-line-menu-nav {
+    display: flex;
+    align-items: center;
 }
 .logo {
     color: var(--iris, #4D5AE5);
@@ -28,6 +33,7 @@ img {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px
 }
 .studio-top-line {
     color: var(--navyblue, #2E2F42);
@@ -41,10 +47,13 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+    gap: 40px;
 }
 .link-nav {
     color: #2E2F42;
     text-decoration: none;
+    padding: 24px 0;
 }
 :hover.link-nav {
     color: #404bbf;
@@ -272,6 +281,9 @@ img {
 .main-footer {
     background-color: #2e2f42;
     padding: 100px 0;
+}
+.container-footer {
+    display: inline-block;
 }
 .studio-footer {
     color: var(--cloud, #F4F4FD);
