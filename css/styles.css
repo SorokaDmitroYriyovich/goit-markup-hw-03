@@ -24,7 +24,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .studio-top-line {
     color: var(--navyblue, #2E2F42);
@@ -228,7 +229,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.logo-footer {
+
     display: inline-block;
     margin-bottom: 16px;
-}
