@@ -8,6 +8,12 @@ img {
 }
 .top-line {
     border-bottom: 1px solid #e7e9fc;
+    width: 1158px;
+    
+}
+.container {
+    display: flex;
+    width: 1158px;
 }
 .logo {
     color: var(--iris, #4D5AE5);
@@ -47,6 +53,7 @@ img {
     color: var(--slate, #434455);
 }
 .adress-list {
+    display: flex;
     list-style-type: none;
     color: var(--slate, #434455);
     font-family: Roboto;
@@ -206,6 +213,7 @@ img {
 }
 .main-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .studio-footer {
     color: var(--cloud, #F4F4FD);
