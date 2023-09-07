@@ -11,6 +11,9 @@ ul, ol {
     margin: 0; 
     padding-left: 0;
 }
+a {
+    margin-bottom: 16px;
+}
 .top-line {
     border-bottom: 1px solid #e7e9fc;
     
